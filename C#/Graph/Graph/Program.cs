@@ -39,8 +39,37 @@ namespace Graph
                 Console.WriteLine();
             }
 
+            Console.WriteLine("BFS");
             ArrayList result = SearchAlgorithms<string>.BreathFirstSearch(nA, nF);
             foreach (SearchNode<string> node in result)
+            {
+                Console.Write(node.GetName() + " => ");
+            }
+
+            // Clear nodes
+            foreach (SearchNode<String> n in graph.GetAllNodes())
+            {
+                n.ClearParent();
+                n.ClearVisited();
+            }
+
+//            Console.WriteLine("\nDFS");
+//            ArrayList dfs = SearchAlgorithms<string>.DepthFirstSearch(nA, nF, true);
+//            foreach (SearchNode<string> node in dfs)
+//            {
+//                Console.Write(node.GetName() + " => ");
+//            }
+//
+//            // Clear nodes
+//            foreach (SearchNode<String> n in graph.GetAllNodes())
+//            {
+//                n.ClearParent();
+//                n.ClearVisited();
+//            }
+
+            Console.WriteLine("\nDFS Iter");
+            ArrayList dfsI = SearchAlgorithms<string>.DepthFirstSearch(nA, nF, false);
+            foreach (SearchNode<string> node in dfsI)
             {
                 Console.Write(node.GetName() + " => ");
             }

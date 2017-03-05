@@ -19,8 +19,10 @@
 
         public void MarkVisited() => mVisited = true;
 
-        public void UnmarkVisited() => mVisited = false;
+        public void ClearVisited() => mVisited = false;
 
         public bool ParentExists() => mParent != null;
+
+        public void ClearParent() => mParent = null;
     }
 }
