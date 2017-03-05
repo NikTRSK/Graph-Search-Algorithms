@@ -1,0 +1,6 @@
+C:\Users\Nick\Documents\!Code\Graph-Search-Algorithms\C#\Graph\Graph\bin\Debug\Graph.exe.config
+C:\Users\Nick\Documents\!Code\Graph-Search-Algorithms\C#\Graph\Graph\bin\Debug\Graph.exe
+C:\Users\Nick\Documents\!Code\Graph-Search-Algorithms\C#\Graph\Graph\bin\Debug\Graph.pdb
+C:\Users\Nick\Documents\!Code\Graph-Search-Algorithms\C#\Graph\Graph\obj\Debug\Graph.csprojResolveAssemblyReference.cache
+C:\Users\Nick\Documents\!Code\Graph-Search-Algorithms\C#\Graph\Graph\obj\Debug\Graph.exe
+C:\Users\Nick\Documents\!Code\Graph-Search-Algorithms\C#\Graph\Graph\obj\Debug\Graph.pdb
